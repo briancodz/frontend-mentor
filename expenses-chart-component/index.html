@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Expenses chart component</title>  
+</head>
+<body>
+  <main class="card">
+    <section class="card-balance">
+      <div class="card-balance__wrapper">
+        <p>My balance</p>
+        <h1>$921.48</h1>
+      </div>
+      <div class="card-balance-logo__wrapper">
+        <img src="images/logo.svg" alt="">
+      </div>
+    </section>
+    <div class="card-chart">
+      <h3>Spending - Last 7 days</h3>
+      <canvas id="spendingChart"></canvas>
+      <hr>
+      <div class="card-footer">
+        <div class="card-footer-total__wrapper">
+              <p>Total this month</p> 
+              <h2>$478.33</h2>
+
+        </div>
+        <div class="card-footer-cent__wrapper">
+          <h4>+2.4%</h4>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- mon tue wed thu fri sat sun-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+
+
+</body>
+</html>
