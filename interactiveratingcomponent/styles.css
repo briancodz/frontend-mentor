@@ -1,0 +1,95 @@
+body {
+  background-color:hsl(216, 12%, 8%);
+  color: #fff;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.icon{
+    background-color: hsl(214, 17%, 24%);
+  width: 20px;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+p {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+}
+.container {
+  background-color: hsl(213, 19%, 18%);
+  width: 20rem;
+  margin: 10% auto;
+  border-radius: 18px;
+  align-items: center;
+}
+.card{
+  padding: 2em;
+}
+
+.button {
+  border: none;
+  background-color: hsl(214, 17%, 24%);
+  color: hsl(217, 12%, 63%);
+  padding: 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 4.1px 10px 0px;
+  border-radius: 50%;
+}
+.button:focus {
+  background-color: hsl(216, 12%, 54%);
+}
+.button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+.btn-5 {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px auto;
+}
+.btn-5:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+.card-content-thank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.thank-you {
+  margin: 10px auto;
+}
+.selection{
+
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(25, 97%, 53%);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+.attribution {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+}
